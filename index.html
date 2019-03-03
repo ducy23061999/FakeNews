@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="asset/style.css">
+    <title>Chủ tịch Project</title>
+</head>
+<body>
+    <div class="block z-depth-5">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Chủ tịch thử điền vào form và cái kết"  type="text" class="validate" id="title"> 
+                    <label for="title">Nhập tiêu đề</label>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Đừng coi thường người khác" type="text" class="validate" id="desc">
+                        <label for="desc">Nhập mô tả</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Nhâp link ảnh" id="image" type="text" class="validate">
+                    </div>
+                 </div>
+                 <div class="input-field col s12">
+                        <i class="material-icons prefix" style="cursor: pointer" id="ic_copy">file_copy</i>
+                        <textarea id="result" class="materialize-textarea"></textarea>
+                        <label for="result">Result</label>
+                    </div>
+            
+                <div class="row">
+                <div class="input-field col s12 flex" style="padding: 0 0 ">
+                    
+                    <a class="btn-floating btn-large waves-effect waves-light red btn-send center" id="btn-send"><i class="material-icons">send</i></a>
+                    
+                    <div class="preloader-wrapper small active hide" id="loading">
+                            <div class="spinner-layer spinner-green-only">
+                              <div class="circle-clipper left">
+                                <div class="circle"></div>
+                              </div><div class="gap-patch">
+                                <div class="circle"></div>
+                              </div><div class="circle-clipper right">
+                                <div class="circle"></div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                   
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="asset/script.js"></script>
+</body>
+</html>

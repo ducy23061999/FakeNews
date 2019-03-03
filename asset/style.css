@@ -1,0 +1,28 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+body{
+    background-image: url('https://cdn.designsmaz.com/wp-content/uploads/2014/10/ceystalhorizon.png') ;
+}
+.block{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 15px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-send{
+    
+    
+}
+.hide{
+    display: none;
+}
